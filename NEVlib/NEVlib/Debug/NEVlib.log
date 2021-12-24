@@ -1,0 +1,5 @@
+﻿  NEVlib.cpp
+C:\Users\thesi\Desktop\NEV_2021\NEVlib\NEVlib\NEVlib.cpp(24,2): warning C4297: _pow: ожидается, что функция не будет выдавать исключения, но она это делает
+C:\Users\thesi\Desktop\NEV_2021\NEVlib\NEVlib\NEVlib.cpp(24,2): message : Функция типа extern "C", указан параметр /EHc
+C:\Users\thesi\Desktop\NEV_2021\NEVlib\NEVlib\NEVlib.cpp(48): warning C4715: _compare: значение возвращается не при всех путях выполнения
+  NEVlib.vcxproj -> C:\Users\thesi\Desktop\NEV_2021\NEVlib\Debug\NEVlib.lib

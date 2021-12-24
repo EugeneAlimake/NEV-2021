@@ -1,0 +1,8 @@
+Тест Без ошибок
+---- Протокол ------- 
+ Дата: 21.12.2021 17:09:10
+---- Параметры -------
+-log: C:\Users\thesi\Desktop\NEV-2021\error\lexical\error6.txt.log
+-out: ../NEVGeneration/NEVGeneration/asm.asm
+-in: C:\Users\thesi\Desktop\NEV-2021\error\lexical\error6.txt
+Ошибка 110: [Системная] Ошибка при открытии файла с исходным кодом (-in), строка -1, позиция -1

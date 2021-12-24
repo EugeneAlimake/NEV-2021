@@ -1,0 +1,12 @@
+Тест Без ошибок
+---- Протокол ------- 
+ Дата: 21.12.2021 17:06:21
+---- Параметры -------
+-log: C:\Users\thesi\Desktop\NEV-2021\error\lexical\error1.txt.log
+-out: ../NEVGeneration/NEVGeneration/asm.asm
+-in: C:\Users\thesi\Desktop\NEV-2021\error\lexical\error1.txt
+---- Исходные данные -----
+Количество символов: 1872
+Проигнорировано:     0
+Количество строк:    116
+Ошибка 200: [Лексическая] Двойное объявление, строка 52, позиция 0

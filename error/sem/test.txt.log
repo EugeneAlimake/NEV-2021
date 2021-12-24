@@ -1,0 +1,197 @@
+Тест Без ошибок
+---- Протокол ------- 
+ Дата: 21.12.2021 17:17:00
+---- Параметры -------
+-log: C:\Users\thesi\Desktop\NEV-2021\error\test.txt.log
+-out: ../NEVGeneration/NEVGeneration/asm.asm
+-in: C:\Users\thesi\Desktop\NEV-2021\error\test.txt
+---- Исходные данные -----
+Количество символов: 1896
+Проигнорировано:     0
+Количество строк:    115
+
+Лексический анализ завершён без ошибок
+
+01 ul<0>
+03 tfi<1>(ti<2>,ti<3>,ti<4>,ti<5>,ti<6>,ti<7>)
+04 {
+05 dti<8>;
+06 c(i<3>o<9>i<2>){
+07 i<8>=i<3>;
+08 }e{
+09 i<8>=i<2>;
+10 }
+11 ri<8>;
+12 }
+14 tfi<10>(ti<11>,ti<12>)
+15 {
+16 dti<13>;
+17 c(i<12>o<14>i<11>){
+18 i<13>=i<12>;
+19 }e{
+20 i<13>=i<11>;
+21 }
+22 ri<13>;
+23 }
+25 tfi<15>(ti<16>,ti<17>)
+26 {
+27 dti<18>;
+28 c(i<16>o<19>i<17>){
+29 i<18>=l<20>;
+30 }
+31 e{
+32 i<18>=l<21>;
+33 }
+34 ri<18>;
+35 }
+37 tfi<22>(ti<23>,ti<24>)
+38 {
+39 dti<25>;
+40 c(i<23>o<26>i<24>){
+41 i<25>=l<27>;
+42 }
+43 e{
+44 i<25>=l<28>;
+45 }
+46 ri<25>;
+47 }
+49 m
+50 {
+51 dti<29>;
+52 dti<30>;
+53 dti<31>;
+54 dti<32>;
+55 dti<33>;
+56 dti<34>;
+57 dti<35>;
+58 dti<36>;
+59 dti<37>;
+62 i<35>=l<38>;
+63 i<33>=l<39>+l<40>;
+65 y(l<40>)
+66 {
+67 i<35>=i<35>-l<39>;
+68 }
+70 p(l<42>);
+71 p(i<35>);
+72 p(i<33>);
+74 i<29>=l<45>;
+75 i<30>=l<46>;
+76 p(l<48>);
+77 p(i<29>);
+78 p(i<30>);
+80 p(l<52>);
+81 i<31>=l<53>;
+82 i<32>=l<54>;
+84 i<37>=a(i<31>,i<32>);
+86 c(i<37>o<56>l<39>){
+87 p(l<58>);
+88 i<36>=i<1>(i<34>,i<35>);
+90 }e{
+91 p(l<60>);
+92 i<36>=i<10>(i<34>,i<35>);
+93 }
+94 p(i<36>);
+95 i<34>=i<33>;
+96 c(i<33>o<62>i<34>){
+97 i<34>=b(i<35>,l<40>);
+98 p(i<34>);
+99 }
+100 p(l<66>);
+101 i<29>=i<15>(i<34>,l<67>);
+102 p(i<29>);
+104 p(l<70>);
+105 i<33>=l<38>;
+106 i<30>=i<22>(i<33>,l<38>);
+107 p(i<30>);
+109 p(l<73>);
+110 i<33>=l<74>;
+111 i<30>=i<22>(i<33>,l<38>);
+112 p(i<30>);
+114 rl<76>;
+115 }
+
+№ > Идентификатор > Область видимости > Тип данных > Тип идентификатора > Индекс в ТЛ > Значение
+
+0 > L1 > L1 > string > литерал > 1 > [55]"C:/Users/thesi/Desktop/NEV-2021/NEVlib/Debug/NEVlib.lib"
+1 > min > min > integer > функция > 4 > нет значения
+2 > a > mina > integer > параметр > 7 > нет значения
+3 > b > minb > integer > параметр > 10 > нет значения
+4 > c > minc > integer > параметр > 13 > нет значения
+5 > d > mind > integer > параметр > 16 > нет значения
+6 > e > mine > integer > параметр > 19 > нет значения
+7 > f > minf > integer > параметр > 22 > нет значения
+8 > res > minres > integer > переменная > 27 > 0
+9 > < > minres > оператор > 32 > нет значения
+10 > max > max > integer > функция > 54 > нет значения
+11 > a > maxa > integer > параметр > 57 > нет значения
+12 > b > maxb > integer > параметр > 60 > нет значения
+13 > res > maxres > integer > переменная > 65 > 0
+14 > > > maxres > оператор > 70 > нет значения
+15 > more > more > string > функция > 92 > нет значения
+16 > a > morea > integer > параметр > 95 > нет значения
+17 > b > moreb > integer > параметр > 98 > нет значения
+18 > res > moreres > string > переменная > 103 > [0]""
+19 > > > moreres > оператор > 108 > нет значения
+20 > L2 > L2 > string > литерал > 114 > [39]"The first value is more than the second"
+21 > L3 > L3 > string > литерал > 121 > [39]"The second value is more than the first"
+22 > eqormin > eqormin > string > функция > 130 > нет значения
+23 > a > eqormina > integer > параметр > 133 > нет значения
+24 > b > eqorminb > integer > параметр > 136 > нет значения
+25 > res > eqorminres > string > переменная > 141 > [0]""
+26 > <= > eqorminres > оператор > 146 > нет значения
+27 > L4 > L4 > string > литерал > 152 > [61]"The first and second value are equal or the second value more"
+28 > L5 > L5 > string > литерал > 159 > [40]"The first and second value are not equal"
+29 > str1 > mainstr1 > string > переменная > 170 > [0]""
+30 > str2 > mainstr2 > string > переменная > 174 > [0]""
+31 > str3 > mainstr3 > string > переменная > 178 > [0]""
+32 > str4 > mainstr4 > string > переменная > 182 > [0]""
+33 > a > maina > integer > переменная > 186 > 0
+34 > b > mainb > integer > переменная > 190 > 0
+35 > c > mainc > integer > переменная > 194 > 0
+36 > d > maind > integer > переменная > 198 > 0
+37 > res > mainres > integer > переменная > 202 > 0
+38 > L6 > L6 > integer > литерал > 206 > 7
+39 > L7 > L7 > integer > литерал > 210 > 1
+40 > L8 > L8 > integer > литерал > 212 > 2
+41 > print > print > integer > unknown > 226 > нет значения
+42 > L9 > L9 > string > литерал > 228 > [25]"Output of values c and a:"
+43 > print > print > string > unknown > 231 > нет значения
+44 > print > print > string > unknown > 236 > нет значения
+45 > L10 > L10 > string > литерал > 243 > [2]"hi"
+46 > L11 > L11 > string > литерал > 247 > [11]"Hello world"
+47 > print > print > string > unknown > 249 > нет значения
+48 > L12 > L12 > string > литерал > 251 > [29]"Output of line str1 and str2:"
+49 > print > print > string > unknown > 254 > нет значения
+50 > print > print > string > unknown > 259 > нет значения
+51 > print > print > string > unknown > 264 > нет значения
+52 > L13 > L13 > string > литерал > 266 > [46]"lexicographic string comparison str3 and str4:"
+53 > L14 > L14 > string > литерал > 271 > [5]"hello"
+54 > L15 > L15 > string > литерал > 275 > [6]"hello "
+55 > compare > maincompare > string > unknown > 279 > нет значения
+56 > == > maincompare > оператор > 289 > нет значения
+57 > print > print > string > unknown > 293 > нет значения
+58 > L16 > L16 > string > литерал > 295 > [29]"accessing the function ~min~:"
+59 > print > print > string > unknown > 310 > нет значения
+60 > L17 > L17 > string > литерал > 312 > [29]"accessing the function ~max~:"
+61 > print > print > string > unknown > 325 > нет значения
+62 > >= > print > оператор > 337 > нет значения
+63 > pow > mainpow > string > unknown > 343 > нет значения
+64 > print > print > string > unknown > 350 > нет значения
+65 > print > print > string > unknown > 356 > нет значения
+66 > L18 > L18 > string > литерал > 358 > [30]"accessing the function ~more~:"
+67 > L19 > L19 > integer > литерал > 367 > 300
+68 > print > print > integer > unknown > 370 > нет значения
+69 > print > print > integer > unknown > 375 > нет значения
+70 > L20 > L20 > string > литерал > 377 > [51]"accessing the function ~equal~, when a=111(binary):"
+71 > print > print > string > unknown > 393 > нет значения
+72 > print > print > string > unknown > 398 > нет значения
+73 > L21 > L21 > string > литерал > 400 > [61]"accessing the function ~equal~, when a!=111(binary) and <111:"
+74 > L22 > L22 > integer > литерал > 405 > 3
+75 > print > print > integer > unknown > 416 > нет значения
+76 > L23 > L23 > integer > литерал > 422 > 0
+****************************************
+Количество идентификаторов: 71
+Синтаксический анализ завершён без ошибок
+
+Ошибка 505: [Cемантическая] Не соответсвует количество передаваемых параметров, строка 88, позиция 0

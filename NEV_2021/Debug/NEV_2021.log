@@ -1,0 +1,6 @@
+﻿  Текущая кодовая страница: 1251
+  LexAnaliz.cpp
+C:\Users\thesi\Desktop\NEV-2021\NEV_2021\LexAnaliz.cpp(289,22): warning C4244: =: преобразование "__int64" в "unsigned short", возможна потеря данных
+C:\Users\thesi\Desktop\NEV-2021\NEV_2021\LexAnaliz.cpp(296,21): warning C4244: =: преобразование "__int64" в "unsigned short", возможна потеря данных
+C:\Users\thesi\Desktop\NEV-2021\NEV_2021\LexAnaliz.cpp(286,11): warning C4101: buf: неиспользованная локальная переменная
+  NEV_2021.vcxproj -> C:\Users\thesi\Desktop\NEV-2021\Debug\NEV_2021.exe

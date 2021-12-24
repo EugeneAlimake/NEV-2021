@@ -1,0 +1,4 @@
+uselib 5
+main
+{
+}

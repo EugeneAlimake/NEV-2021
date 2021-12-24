@@ -1,0 +1,12 @@
+Тест Без ошибок
+---- Протокол ------- 
+ Дата: 21.12.2021 17:13:30
+---- Параметры -------
+-log: C:\Users\thesi\Desktop\NEV-2021\error\sys\error6.txt.log
+-out: ../NEVGeneration/NEVGeneration/asm.asm
+-in: C:\Users\thesi\Desktop\NEV-2021\error\sys\error6.txt
+---- Исходные данные -----
+Количество символов: 17
+Проигнорировано:     0
+Количество строк:    2
+Ошибка 500: [Cемантическая] Нет точки входа main, строка 0, позиция 0

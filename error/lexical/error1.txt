@@ -1,0 +1,116 @@
+uselib "C:/Users/thesi/Desktop/NEV-2021/NEVlib/Debug/NEVlib.lib"
+
+ushort function min(ushort a, ushort b)
+{
+	var ushort res;
+	if (b < a) {
+		res = b;
+	} else {
+		res = a;
+	}
+	return res;
+}
+
+ushort function max(ushort a, ushort b)
+{
+	var ushort res;
+	if (b > a) {
+		res = b;
+	} else {
+		res = a;
+	}
+	return res;
+}
+ 
+line function more(ushort a, ushort b)
+{
+	var line res;
+	if (a > b) {
+		res = "The first value is more than the second";
+	}
+	else {
+		res = "The second value is more than the first";
+	}
+	return res;
+}
+
+line function eqormin(ushort a, ushort b)
+{
+	var line res;
+	if (a<=b) {
+		res = "The first and second value are equal or the second value more";
+	}
+	else {
+		res = "The first and second value are not equal";
+	}
+	return res;
+}
+
+main
+{ 	
+	var line str1;
+	var line str1;
+	var line str2;
+        var line str3;
+	var line str4;
+	var ushort a;
+	var ushort b;
+	var ushort c;
+	var ushort d;
+	var ushort res;
+	
+	
+        c = 111;
+        a=1+02;
+
+	cycle(10)
+	{
+	 c=c-01;
+	} 
+
+        print("Output of values c and a:");
+        print(c);
+        print(a);
+ 
+	str1 = "hi";
+	str2 = "Hello world";
+	print("Output of line str1 and str2:");
+	print(str1);
+	print(str2);
+
+        print("lexicographic string comparison str3 and str4:");
+        str3 = "hello";
+	str4 = "hello ";
+
+	res = compare(str3, str4);
+
+	if(res == 1) {
+	print("accessing the function ~min~:");
+		d = min(b, c);
+		
+	} else {
+		print("accessing the function ~max~:");
+               d = max(b, c);
+	}
+	print(d);
+	b=a;
+	if(a >= b) {
+		b = pow(c, 10);
+		print(b);
+	}
+	print("accessing the function ~more~:");
+	str1 = more(b, 0454);
+	print(str1);
+
+       	print("accessing the function ~equal~, when a=111(binary):");
+        a=111;
+	str2 = eqormin(a,111);
+	print(str2);
+
+	print("accessing the function ~equal~, when a!=111(binary) and <111:");
+	a=11;
+	str2 = eqormin(a,111);
+	print(str2);
+
+	return 0;
+}
